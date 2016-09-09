@@ -1,0 +1,13 @@
+{
+  "name": "mock-knex",
+  "main": "index.d.ts",
+  "homepage": "https://github.com/colonyamerican/mock-knex",
+  "version": "0.3.3",
+  "globalDevDependencies": {
+    "knex": "registry:dt/knex#0.0.0+20160819212955",
+    "node": "registry:env/node#6.0.0+20160902022231"
+  },
+  "devDependencies": {
+    "blue-tape": "registry:npm/blue-tape#0.2.0+20160723033700"
+  }
+}
