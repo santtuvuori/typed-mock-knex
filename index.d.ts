@@ -63,7 +63,7 @@ declare namespace MockKnex {
      * @param values An array of mock data to be returned by database. For Bookshelf this is mostly array of objects. Knex could return any type of data.
      * @param options
      */
-    response(values: any[], options: QueryDetailsResponseOption): void;
+    response(values: any[], options?: QueryDetailsResponseOption): void;
   }
 
   export interface QueryDetailsResponseOption {
